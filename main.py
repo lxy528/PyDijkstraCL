@@ -86,6 +86,6 @@ for i in range(0,v):
 graph.edgecount=count 
 
 updateCostArray = np.zeros(graph.vertexcount)
-# run Dijkstra Algorithm to find the shortesr way
+# run Dijkstra Algorithm to find the shortest way
 result = runDijkstra(graph,0,costArray )
 
